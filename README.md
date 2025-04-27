@@ -14,4 +14,4 @@ FiltroExtracaoEventos - Recebe as linhas e busca por termos recorrentes como fai
 
 FiltroClassificaçãoDeEventos - Recebe os dados enviados pela função de extração e classifica de acordo com o termo exfiltrado envia para função que irá gerar relatório.
 
-FiltroEscreveRelatorio - Recebe os dados tratados e gera um arquivo com informações.
+FiltroEscreveRelatorio - Recebe os dados tratados e gera um arquivo com informações em um relatório.
