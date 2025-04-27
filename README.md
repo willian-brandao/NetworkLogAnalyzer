@@ -3,10 +3,11 @@ O sistema é responsável por ler arquivos log de redes. Entre ele, registros co
 
 A aplicação possui quatro filtros principais:
 
-FiltroLeituraLogs
-FiltroExtracaoEventos
-FiltroClassificacaoDeEventos
-FiltroEscreveRelatorio
+* FiltroLeituraLogs
+* FiltroExtracaoEventos
+* FiltroClassificacaoDeEventos
+* FiltroEscreveRelatorio
+
 FiltroLeituraLogs - Recebe o arquivo, faz a leitura de cada linha de registro de logs de rede e depois envia para exfiltração.
 
 FiltroExtracaoEventos - Recebe as linhas e busca por termos recorrentes como failed, success, etc. Esses termos irão auxiliar para os eventos possam ser classificados e enviados para o módulo de classificação.
